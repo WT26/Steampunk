@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1805353968008508}
+  m_IsPrefabParent: 1
+--- !u!1 &1805353968008508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4644819327827278}
+  - component: {fileID: 114675019687433352}
+  - component: {fileID: 82275591513790440}
+  m_Layer: 0
+  m_Name: AudioPlayer
+  m_TagString: audioPlayer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4644819327827278
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805353968008508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82275591513790440
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805353968008508}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114675019687433352
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805353968008508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5710858225b801458a2ef30a59ab82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nowPlaying: 0
+  volumeSlider: 50
+  twentiethCentuary: {fileID: 8300000, guid: 3bc9c78f3042ee148b843202354364e4, type: 3}
+  twentiethZombieman: {fileID: 8300000, guid: 65db190b9e38a074590c45dee5c4ddae, type: 3}
+  alarm: {fileID: 8300000, guid: 44c049105f40003428a0eb58f2374b4b, type: 3}
+  loop: {fileID: 8300000, guid: afe1f055287550141a3670d622fe2d9d, type: 3}
+  melancholyFast: {fileID: 8300000, guid: 240d0f9c97cb5264a9d8beae6c4ffe4a, type: 3}
+  puhegenTest: {fileID: 8300000, guid: 2af5121386ca6414380ac2db97dd0894, type: 3}
+  synkky: {fileID: 8300000, guid: 0952fca508e19fd41a1bfe7e6f35e475, type: 3}
+  taustaAmbient: {fileID: 8300000, guid: cfdc445cb0bdc3b44bfe45343e28f48b, type: 3}
+  zombieman: {fileID: 8300000, guid: 46c7ac3bcdc748041a24d4643dcb2c4f, type: 3}
+  haunting: {fileID: 8300000, guid: c86a1fc5db78ea4449bfdc089c443876, type: 3}
+  credits: {fileID: 8300000, guid: c45d709f3e8b4ed408892c9f100df632, type: 3}
+  bassoPiano: {fileID: 8300000, guid: 2b72e36e352acd447a685311c4bf5014, type: 3}
+  heartbeatValinta: {fileID: 8300000, guid: 4c80e7702f38a864faa2318dfb3d3faa, type: 3}
+  kuumottelu: {fileID: 8300000, guid: 34502286ad50ea44aaa33de2aec1f89e, type: 3}
+  natureAmbient: {fileID: 8300000, guid: 5e66b0fc4fd3501459111cb65b44f27b, type: 3}
+  ocean: {fileID: 8300000, guid: 1ae7ca37c7b68d046a24570cff65604a, type: 3}
